@@ -1,0 +1,53 @@
+.benefitCard {
+    width: 341px;
+    height: 382px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+
+    &_card {
+        height: 302px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: left;
+        padding: 20px;
+        padding-bottom: 35px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #076344 65.21%);
+
+        .text {
+            height: 60%;
+            justify-self: end;
+            color: #fff;
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 29px;
+                line-height: 35px;
+            }
+
+            p.info {
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #076344;
+        position: absolute;
+        top: 0;
+        margin-left: calc(50% - 75px - 20px);
+    }
+
+
+}

@@ -1,0 +1,63 @@
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+
+    .logo {
+        width: 150px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    dt {
+        border-bottom: 2px solid #fff;
+        width: min-content;
+        font-weight: 900;
+    }
+
+    dd {
+        margin: 0;
+        font-family: 'Objective';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 14px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+    }
+
+    dl {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+
+}
+.line{
+    width: 100%;
+    border: 1px solid #fff;
+    height: 0px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    .icons{
+        display: flex;
+        gap: 30px;
+    }
+}

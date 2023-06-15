@@ -1,0 +1,264 @@
+@keyframes animateBtn {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.message {
+    width: 100%;
+    height: 90vh;
+    color: #fff;
+    padding: 47px 0;
+    text-align: left;
+
+    &_block {
+        display: grid;
+        grid-template-areas:
+            "title title"
+            "inputs information";
+        grid-column-gap: 45px;
+        grid-template-columns: 45% 45%;
+
+        .inputs {
+            grid-area: inputs;
+            display: flex;
+            flex-direction: column;
+            gap: 47px;
+
+            .name {
+                display: grid;
+                grid-template-columns: 45% 45%;
+                justify-content: space-between;
+            }
+
+        }
+
+        .information {
+            grid-area: information;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 100%;
+
+            .info {
+                display: grid;
+                grid-template-columns: 90%;
+                justify-content: end;
+                justify-items: legacy;
+                grid-template-rows: 10% 15% 15% 60%;
+
+                span {
+                    font-size: 18px;
+                    line-height: 25px;
+                }
+
+                .lineInfo {
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 15px;
+                    align-items: center;
+
+                }
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                a {
+                    font-size: 18px;
+                    line-height: 25px;
+
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                iframe {
+                    width: 100% !important;
+                    height: 100% !important;
+                    border-radius: 15px;
+                    align-self: flex-end;
+                }
+            }
+
+        }
+
+    }
+
+
+    .title {
+        font-family: 'Encode Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        grid-area: title;
+
+    }
+
+
+
+
+
+    input {
+        padding: 25px 22px;
+        box-sizing: border-box;
+        border: 1.2px solid #FFFFFF;
+        border-radius: 4px;
+        height: 70px;
+        background-color: transparent;
+        width: 100%;
+        color: #fff;
+        font-size: 18px;
+
+        &::placeholder {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$openSans: 'Open Sans', Helvetica, Arial, sans-serif;
+
+
+.buttons {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+    height: 50px;
+}
+
+$cyan: #076344;
+$dark: #FFFFFF;
+$borderW: 2px;
+
+.blob-btn {
+    width: 100%;
+    $numOfBlobs: 4;
+    z-index: 1;
+    position: relative;
+    padding: 20px 46px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $cyan;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color 0.5s;
+    cursor: pointer;
+    border-radius: 30px;
+
+    &:before {
+        content: "";
+        z-index: 1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    &:after {
+        content: "";
+        z-index: -2;
+        position: absolute;
+        left: $borderW*1.5;
+        top: $borderW*1.5;
+        width: 100%;
+        height: 100%;
+
+        transition: all 0.3s 0.2s;
+        border-radius: 30px;
+    }
+
+    &:hover {
+        color: $dark;
+        border-radius: 30px;
+
+        &:after {
+            transition: all 0.3s;
+            left: 0;
+            top: 0;
+            border-radius: 30px;
+        }
+    }
+
+    &__inner {
+        z-index: -1;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        background: #ffffff;
+    }
+
+    // additional container created, because in FF blobs are breaking overflow:hidden of element with svg gooey filter
+    &__blobs {
+        position: relative;
+        display: block;
+        height: 100%;
+        filter: url('#goo');
+    }
+
+    &__blob {
+        position: absolute;
+        top: $borderW;
+        width: 100% / $numOfBlobs;
+        height: 100%;
+        background: $cyan;
+        border-radius: 100%;
+        transform: translate3d(0, 150%, 0) scale(1.7);
+        transition: transform 0.45s;
+
+        @supports(filter: url('#goo')) {
+            transform: translate3d(0, 150%, 0) scale(1.4);
+        }
+
+        @for $i from 1 through $numOfBlobs {
+            &:nth-child(#{$i}) {
+                left: ($i - 1) * (120% / $numOfBlobs);
+                transition-delay: ($i - 1) * 0.08s;
+            }
+        }
+
+        .blob-btn:hover & {
+            transform: translateZ(0) scale(1.7);
+
+            @supports(filter: url('#goo')) {
+                transform: translateZ(0) scale(1.4);
+            }
+        }
+    }
+
+}

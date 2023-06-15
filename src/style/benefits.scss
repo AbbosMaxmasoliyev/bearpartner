@@ -1,0 +1,45 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    grid-row-gap: 80px;
+    margin-top: 80px;
+
+}
+
+
+.benefits {
+    color: #fff;
+
+    h2 {
+        text-align: left;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &::before {
+            content: "";
+            width: 72px;
+            height: 2px;
+            background-color: #0D8157;
+            display: block;
+        }
+    }
+
+    .span {
+        text-align: left;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #098A5B;
+    }
+
+}
