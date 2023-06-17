@@ -11,6 +11,7 @@ import Step from './components/Step';
 import Cooperation from './components/Cooperation';
 import Footer from './components/Footer';
 import Message from './components/Message';
+import Background from './components/Background';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Showcase />
+      <Background/>
+      <About/>
       <Benefits />
       <Step/>
       <Cooperation/>

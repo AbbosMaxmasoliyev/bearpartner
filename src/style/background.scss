@@ -1,0 +1,19 @@
+.backVideo{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 10vh;
+    z-index: -1;
+    video{
+        width: 100%;
+    }
+
+    .block{
+        top: 0;
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        backdrop-filter: invert(100%) blur(8px);
+
+    }
+}

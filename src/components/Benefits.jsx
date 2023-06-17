@@ -1,47 +1,67 @@
 import { BenefitCard } from "./Card"
 import "../style/benefits.scss"
+import { useTranslation } from "react-i18next"
+import { Tween } from "react-gsap"
+
 const Benefits = () => {
+  const { t } = useTranslation()
   const data = [
     {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
+      title: "Taxi consulting", info: t("benefits.card1subtitle"), image: require("../images/4.png")
+    },
     {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
+      title: "Taxi consulting", info: t("benefits.card2subtitle"), image: require("../images/3.png")
+    },
     {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
+      title: "Taxi consulting", info: t("benefits.card3subtitle"), image: require("../images/1.png")
+    },
     {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
+      title: "Taxi consulting", info: t("benefits.card4subtitle"), image: require("../images/2.png")
+    },
     {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
-    {
-      title: "Taxi consulting", info: `Lorem ipsum dolor sit amet, consectetur 
-    adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore.`},
+      title: "Taxi consulting", info: t("benefits.card5subtitle"), image: require("../images/5.png")
+    },
   ]
 
   return (
-    <div className="benefits">
-      <div className="container">
-        <h2>Benefits</h2>
-        <p className="span">OUR SERVICES FOR CLIENTS</p>
-        <div className="cards">
-          {
-            data.map(({ title, info }, index) => (
-              <BenefitCard title={ title } info={ info } key={index}/>
-            ))
-          }
+
+    <Tween
+      from={ {
+        x: '1920px',
+        scrollTrigger: {
+          trigger: '.benefits',
+          start: `-400px center`,
+          end: '-300px center',
+          scrub: 1,
+          markers: false,
+        },
+      } }
+
+      to={ {
+        x: '0',
+        scrollTrigger: {
+          trigger: '.benefits',
+          start: '-100px center',
+          end: `-50px center`,
+          scrub: 1,
+          markers: false,
+        },
+      } }
+    >
+      <div className="benefits">
+        <div className="container">
+          <h2>{ t("benefits.Benefits") }</h2>
+          <p className="span">{ t("benefits.OURSERVICESFORCLIENTS") }</p>
+          <div className="cards">
+            {
+              data.map(({ title, info, image }, index) => (
+                <BenefitCard info={ info } key={ index } image={ image } />
+              ))
+            }
+          </div>
         </div>
       </div>
-    </div>
+    </Tween>
   )
 }
 export default Benefits

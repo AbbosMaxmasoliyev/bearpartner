@@ -1,0 +1,46 @@
+{
+    "header": {
+      "Home": "Bosh Sahifa",
+      "Services": "Xizmatlar",
+      "Work":"Ish",
+      "AboutUs":"Biz haqimizda",
+      "Blog":"Yangiliklar"
+    },
+    "content": {
+      "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADA HAYDOVCHILAR VA KURERLAR UCHUN ISHLASH",
+      "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"Biz sizni taksi va yetkazib berishda kunlik yoki haftalik to'lovlar bilan komissiyasiz pul ishlash uchun bog'laymiz",
+      "GETSTARTED":"BOSHLASH"
+    },
+    "benefits":{
+        "Benefits":"Foydalarimiz",
+        "OURSERVICESFORCLIENTS":"MIJOLAR UCHUN XIZMATLARIMIZ",
+        "HOWDOIGETSTARTED":"QANDAY BOSHLASHIM MUMKIN?",
+        "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"Haydovchi yoki kurer bo'lish uchun siz quyidagi talablarga javob berishingiz kerak:",
+        "TERMSOFCOOPERATION":"HAMKORLIK SHARTLARI",
+        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Maoshingizni qanchalik tez-tez olishingizni faqat siz hal qilasiz:",
+        "Yourmessage":"Xabar yuborish",
+        "FirstName":"Ismingiz",
+        "LastName":"Familiyangiz",
+        "EmailAdress":"Email pochtangizni kiriting",
+        "PhoneNumber":"Telefon raqamingiz",
+        "Send":"Yuborish",
+      
+        "card1subtitle":"Tez, mas'uliyatli va jonli qo'llab-quvvatlash, hech qanday bot va uzoq kutish",
+        "card2subtitle":"Avtomobilingiz uchun sug'urta olish",
+      
+        "card3subtitle":"Avtomobil uchun ID va litsenziya olish imkoniyati",
+        "card4subtitle":"Yangi haydovchilar va kurerlarni jalb qilish uchun bozordagi eng yaxshi pul mukofotlari",
+        "card5subtitle":"Tanlov bilan o'z vaqtida va barqaror to'lovlar: kunlik yoki haftalik"
+    },
+    "about":{
+      "about":"Bear Partner haqida",
+      "subtitle":"Bear partner taksi va yetkazib berish xizmatlarida ishlash uchun eng yaxshi sharoitlarni taqdim etadi:",
+      "city":"Polsha sharharlarida",
+      "fromYear":"yildan beri",
+      "customer":"Mijozlar",
+      "day":"1 Kun uchun",
+      "help":"Biz barcha kerakli hujjatlarni to'ldirishda yordam beramiz haydovchilarimiz va kurerlarimiz ish boshlashlari uchun.",
+      "tomorrow":"Ertasi kuni siz ishlashni boshlashingiz va har kuni doimiy ravishda sof foyda olishingiz mumkin."
+    }
+
+  }

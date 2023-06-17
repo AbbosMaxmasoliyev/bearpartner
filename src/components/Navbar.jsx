@@ -1,17 +1,53 @@
+import { useEffect, useRef, useState } from "react"
 import "../style/navbar.scss"
-const Navbar = () => {
-    return (
-        <nav className="container navbar">
-            <div className="logo">
-                <img src={ require("../images/BEAR LOGO.png") } />
-            </div>
-            <div className="links">
-                <a href="#">Home</a>
-                <a href="#Services">Services</a>
-                <a href="#Work">Work</a>
-                <a href="#About">About us</a>
-                <a href="#Blog">Blog</a>
+import {GiHamburgerMenu} from "react-icons/gi"
+import {VscChromeClose} from "react-icons/vsc"
+import { TweenMax, Power3 } from "gsap/gsap-core"
 
+import  { Tween } from "react-gsap"
+import { useTranslation } from 'react-i18next';
+
+import Language from "./Language"
+
+
+const Navbar = () => {
+    const {t} = useTranslation()
+   
+    const [responsive, setResponsive] = useState(false)
+
+    let navItem = useRef(null)
+    useEffect(()=>{
+        TweenMax.to(
+            navItem, 
+            2,
+            {
+                opacity:1,
+                y:-20,
+                ease: Power3.easeInOut(),
+                delay:2
+            }
+        )
+
+        console.log(navItem);
+    },[])
+
+    return (
+        <nav ref={el=> {navItem=el}} >
+            <div className="container navbar">
+
+                <div className="logo">
+                    <img src={ require("../images/BEAR LOGO.png") } />
+                </div>
+                <div className={`links  ${responsive?'responsive':''}`}>
+                    <a href="#">{ t("header.Home") }</a>
+                    <a href="#Services">{ t("header.Services") }</a>
+                    <a href="#Work">{ t("header.Work") }</a>
+                    <a href="#About"> { t("header.AboutUs") }</a>
+                    <a href="#Blog">{ t("header.Blog") }</a>
+                    <Language/>
+                    <button className="menu close" onClick={()=>setResponsive(!responsive)}><VscChromeClose/></button>
+                </div>
+                <button className="menu" onClick={()=>setResponsive(!responsive)}><GiHamburgerMenu/></button>
             </div>
         </nav>
     )

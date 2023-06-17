@@ -1,14 +1,20 @@
 import "../style/step.scss"
+import { useTranslation } from "react-i18next"
 
 const Step = () => {
+    const {t} = useTranslation()
     return (
         <div className="step">
-            <div className="container">
-                <h3>HOW DO I GET STARTED? </h3>
-                <p>To become a driver or courier, you must meet the following requirements:</p>
+            <div className="container title">
+                <h3>{t("benefits.HOWDOIGETSTARTED")}</h3>
+                <p>{t("benefits.Tobecomeadriverorcouriermustmeetthefollowingrequirements")}</p>
             </div>
             <div className="started"></div>
-            <div className="line"></div>
+            <div className="line">
+                <marquee direction="right" scrollamount="30">
+                    <span className="line_animation"></span>
+                </marquee>
+            </div>
             <div className="carou">
                 <div className="spend">
                     <p className="title">1</p>

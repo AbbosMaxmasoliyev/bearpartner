@@ -1,12 +1,14 @@
+import { useTranslation } from "react-i18next"
 import "../style/showcase.scss"
 const Showcase = () => {
+    const {t} = useTranslation()
     return (
         <div className="showcase">
-            <div className="container">
-                <span>CREATIVE MIND, CREATIVE WORKS.</span>
-                <h1>We Are <span>Bear
-                    Partner</span></h1>
-                <button>GETTING STARTED</button>
+            <div className="container info">
+                <h1>{ t("content.WORKINPOLANDFORDRIVERSANDCOURIERS") }</h1>
+                <p>{t("content.Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions")}</p>
+
+                <button class="glow-on-hover" type="button">{t("content.GETSTARTED")}</button>
             </div>
         </div>
     )

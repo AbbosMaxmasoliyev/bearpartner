@@ -1,0 +1,28 @@
+{
+    "header": {
+      "Home": "Home",
+      "Services": "Services",
+      "Work":"Work",
+      "AboutUs":"About Us",
+      "Blog":"Blog"
+    },
+    "content": {
+      "WORKINPOLANDFORDRIVERSANDCOURIERS": "WORK IN POLAND FOR DRIVERS  AND COURIERS",
+      "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"We will connect you to earn money in taxi and delivery with daily or weekly payments without commissions",
+      "GETSTARTED":"GET STARTED"
+    },
+    "benefits":{
+        "Benefits":"Benefits",
+        "OURSERVICESFORCLIENTS":"OUR SERVICES FOR CLIENTS",
+        "HOWDOIGETSTARTED":"HOW DO I GET STARTED?",
+        "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"To become a driver or courier must meet the following requirements:",
+        "TERMSOFCOOPERATION":"TERMS OF COOPERATION",
+        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Only You decide how often you receive your salary",
+        "Yourmessage":"Your message",
+        "FirstName":"First Name",
+        "LastName":"Last Name",
+        "EmailAdress":"Email Adress",
+        "PhoneNumber":"Phone Number",
+        "Send":"Send"
+    }
+  }

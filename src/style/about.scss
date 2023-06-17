@@ -1,0 +1,249 @@
+.about {
+    background-image: linear-gradient(90deg, hsla(31, 100%, 50%, 0.85), #ffbf00c1 41%, #ffbf00c1 62%, hsla(31, 100%, 50%, 0.85));
+    border-radius: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    grid-template-areas:
+        "title title"
+        "mockup info";
+
+    color: invert($color: #000);
+
+    .title {
+        grid-area: title;
+
+        h2 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: 700;
+            width: 60%;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+    }
+
+    .mockup {
+        grid-area: mockup;
+        width: 100%;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .icons {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        justify-content: start;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+        }
+    }
+
+
+    .counter {
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+
+        .info {
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            text-align: left;
+
+            p {
+                font-size: 50px;
+                font-family: 'Encode Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 160%;
+                /* or 58px */
+
+                letter-spacing: 0.01em;
+
+                &:nth-child(2) {
+                    padding-left: 50px;
+                }
+
+                &:nth-child(3) {
+                    padding-left: 100px;
+                }
+
+
+                span {
+                    font-size: 66px;
+                    font-weight: 900;
+                }
+
+
+
+            }
+        }
+
+
+
+        .aDay {
+
+            h3 {
+                font-size: 28px;
+                text-align: left;
+            }
+
+            p {
+                font-size: 20px;
+                text-align: left;
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (max-width:1200px) {
+    .about {
+        grid-template-columns: 90%;
+        grid-template-areas:
+            "title"
+            "info"
+            "mockup";
+            .title {
+
+    
+
+    
+                p {
+   
+                    width: 100%;
+                }
+            }
+
+        .counter {
+            // grid-area: info;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // gap: 25px;
+
+            .info {
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 30%);
+
+                p {
+
+
+                    &:nth-child(2) {
+                        padding-left: 0;
+                    }
+
+                    &:nth-child(3) {
+                        padding-left: 0;
+                    }
+
+
+
+
+                }
+            }
+
+
+
+
+
+        }
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .about {
+
+    
+        .title {
+
+    
+
+    
+            p {
+                width: 100%;
+            }
+        }
+    
+
+    
+    
+        .counter {
+
+    
+            .info {
+                height: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+                text-align: left;
+    
+                p {
+                    font-size: 50px;
+                    font-family: 'Encode Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26px;
+                    line-height: 160%;
+                    /* or 58px */
+    
+                    letter-spacing: 0.01em;
+    
+                    &:nth-child(2) {
+                        padding-left: 50px;
+                    }
+    
+                    &:nth-child(3) {
+                        padding-left: 100px;
+                    }
+    
+    
+                    span {
+                        font-size: 36px;
+                        font-weight: 900;
+                    }
+    
+    
+    
+                }
+            }
+    
+    
+    
+            .aDay {
+    
+                h3 {
+                    font-size: 28px;
+                    text-align: left;
+                }
+    
+                p {
+                    font-size: 20px;
+                    text-align: left;
+                }
+            }
+    
+        }
+    }
+}

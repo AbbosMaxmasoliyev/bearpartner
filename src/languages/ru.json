@@ -1,0 +1,28 @@
+{
+    "header": {
+        "Home": "Дом",
+        "Services": "Услуги",
+        "Work": "Работа",
+      "AboutUs": "О нас",
+        "Blog": "Новости"
+    },
+    "content": {
+        "WORKINPOLANDFORDRIVERSANDCOURIERS": "РАБОТА В ПОЛЬШЕ ДЛЯ ВОДИТЕЛЕЙ И КУРЬЕРОВ",
+        "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "Мы подключим вас к заработку с ежедневными или еженедельными платежами без комиссий",
+        "GETSTARTED": "СТАРТ"
+    },
+    "benefits": {
+        "Benefits": "Наши преимущества",
+        "OURSERVICESFORCLIENTS": "НАШИ УСЛУГИ ДЛЯ КЛИЕНТОВ",
+        "HOWDOIGETSTARTED": "КАК НАЧАТЬ?",
+        "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "Чтобы стать водителем или курьером, вы должны соответствовать следующим требованиям:",
+        "TERMSOFCOOPERATION": "УСЛОВИЯ СОТРУДНИЧЕСТВА",
+        "OnlyYoudecidehowoftenyoureceiveyoursalary": "Только вы решаете, как часто вы получаете зарплату:",
+        "Yourmessage": "Отправить сообщение",
+        "FirstName": "Ваше имя",
+        "LastName": "Ваша фамилия",
+        "EmailAdress": "Введите адрес электронной почты",
+        "PhoneNumber": "Ваш номер телефона",
+        "Send": "Отправить"
+    }
+}
