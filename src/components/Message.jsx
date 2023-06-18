@@ -28,8 +28,8 @@ const Message = () => {
                 x: '-600px',
                 scrollTrigger: {
                     trigger: '.square',
-                    start: `${height-(height-10)}px center`,
-                    end: '600px center',
+                    start: `10vh center`,
+                    end: '5vh center',
                     scrub: 1,
                     markers: false,
                 },
@@ -39,14 +39,14 @@ const Message = () => {
                 x: '0',
                 scrollTrigger: {
                     trigger: '.square',
-                    start: '20px center',
-                    end: `${height-(height-10)}px center`,
+                    start: '10vh center',
+                    end: `5vh center`,
                     scrub: 1,
                     markers: false,
                 },
             } }
         >
-            <div className="message square" >
+            <div className="message square mt-10" >
                 <div className="container message_block">
                     <p className="title">{t("benefits.Yourmessage")}</p>
                     <div className="inputs">

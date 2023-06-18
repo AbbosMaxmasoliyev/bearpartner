@@ -30,8 +30,8 @@ const Benefits = () => {
         x: '1920px',
         scrollTrigger: {
           trigger: '.benefits',
-          start: `-400px center`,
-          end: '-300px center',
+          start: `10vh center`,
+          end: '5vh center',
           scrub: 1,
           markers: false,
         },
@@ -41,14 +41,14 @@ const Benefits = () => {
         x: '0',
         scrollTrigger: {
           trigger: '.benefits',
-          start: '-100px center',
-          end: `-50px center`,
+          start: '10vh center',
+          end: `5vh center`,
           scrub: 1,
           markers: false,
         },
       } }
     >
-      <div className="benefits">
+      <div className="benefits mt-10">
         <div className="container">
           <h2>{ t("benefits.Benefits") }</h2>
           <p className="span">{ t("benefits.OURSERVICESFORCLIENTS") }</p>

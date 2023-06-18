@@ -12,7 +12,7 @@ const Cooperation = () => {
         <img src="https://picsum.photos/800/303/?random" alt="4" />,
         <img src="https://picsum.photos/800/304/?random" alt="5" />];
     return (
-        <div className="cooperation" style={ { height: "500px" } }>
+        <div className="cooperation mt-10" style={ { height: "500px" } }>
             <h3>
                 {t("benefits.TERMSOFCOOPERATION")}
                 <br />
