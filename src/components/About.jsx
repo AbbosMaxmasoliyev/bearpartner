@@ -37,7 +37,7 @@ const About = () => {
                 },
             } }
         >
-            <div className=" container about_block mt-10">
+            <div className="container about_block mt-10" id='About'>
                 <div className='about'>
                     <div className='title'>
                         <h2>{ t("about.about") }</h2>

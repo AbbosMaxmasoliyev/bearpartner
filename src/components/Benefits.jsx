@@ -48,7 +48,7 @@ const Benefits = () => {
         },
       } }
     >
-      <div className="benefits mt-10">
+      <div className="benefits mt-10" id="Benefits">
         <div className="container">
           <h2>{ t("benefits.Benefits") }</h2>
           <p className="span">{ t("benefits.OURSERVICESFORCLIENTS") }</p>

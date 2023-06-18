@@ -46,7 +46,7 @@ const Message = () => {
                 },
             } }
         >
-            <div className="message square mt-10" >
+            <div className="message square mt-10" id="Contact" >
                 <div className="container message_block">
                     <p className="title">{t("benefits.Yourmessage")}</p>
                     <div className="inputs">

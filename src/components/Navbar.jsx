@@ -40,9 +40,9 @@ const Navbar = () => {
                 </div>
                 <div className={`links  ${responsive?'responsive':''}`}>
                     <a href="#">{ t("header.Home") }</a>
-                    <a href="#Services">{ t("header.Services") }</a>
-                    <a href="#Work">{ t("header.Work") }</a>
                     <a href="#About"> { t("header.AboutUs") }</a>
+                    <a href="#Benefits">{ t("header.Services") }</a>
+                    <a href="#Contact">{ t("header.Contact") }</a>
                     <a href="#Blog">{ t("header.Blog") }</a>
                     <Language/>
                     <button className="menu close" onClick={()=>setResponsive(!responsive)}><VscChromeClose/></button>
