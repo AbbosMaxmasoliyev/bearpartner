@@ -4,20 +4,22 @@
       "Services": "Xizmatlar",
       "Contact":"Aloqa",
       "AboutUs":"Biz haqimizda",
-      "Blog":"Yangiliklar"
+      "Blog":"Yangiliklar",
+      "Benefits":"Imtiyozlarimiz",
+      "feedback":"Fikrlar"
     },
     "content": {
-      "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADA HAYDOVCHILAR VA KURERLAR UCHUN ISHLASH",
+      "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADAGI TAXI HAYDOVCHILAR VA KURERLAR UCHUN ISHONARLI PARTNER",
       "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"Biz sizni taksi va yetkazib berishda kunlik yoki haftalik to'lovlar bilan komissiyasiz pul ishlash uchun bog'laymiz",
       "GETSTARTED":"BOSHLASH"
     },
     "benefits":{
-        "Benefits":"Foydalarimiz",
+        "Benefits":"Imtiyozlarimiz",
         "OURSERVICESFORCLIENTS":"MIJOLAR UCHUN XIZMATLARIMIZ",
         "HOWDOIGETSTARTED":"QANDAY BOSHLASHIM MUMKIN?",
         "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"Haydovchi yoki kurer bo'lish uchun siz quyidagi talablarga javob berishingiz kerak:",
-        "TERMSOFCOOPERATION":"HAMKORLIK SHARTLARI",
-        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Maoshingizni qanchalik tez-tez olishingizni faqat siz hal qilasiz:",
+        "TERMSOFCOOPERATION":"Mijozlar fikri",
+        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Mijozlarimiz biz haqimizda qanday fikrda",
         "Yourmessage":"Xabar yuborish",
         "FirstName":"Ismingiz",
         "LastName":"Familiyangiz",
@@ -38,7 +40,7 @@
       "city":"Polsha sharharlarida",
       "fromYear":"yildan beri",
       "customer":"Mijozlar",
-      "day":"1 Kun uchun",
+      "day":"24 soat ichida",
       "help":"Biz barcha kerakli hujjatlarni to'ldirishda yordam beramiz haydovchilarimiz va kurerlarimiz ish boshlashlari uchun.",
       "tomorrow":"Ertasi kuni siz ishlashni boshlashingiz va har kuni doimiy ravishda sof foyda olishingiz mumkin."
     }

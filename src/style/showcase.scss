@@ -46,13 +46,17 @@
     }
 
 
-    button {
+    a {
         padding: 28px 31px;
         background: transparent;
         color: rgb(var(--mainColor));
         border: 1px solid rgb(var(--mainColor));
         font-weight: 900;
         font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         
     }

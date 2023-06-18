@@ -50,7 +50,7 @@ const About = () => {
                         <div className='info'>
                             <p><span><CountUp duration={ 5 } end={ 36 } />+</span> { t("about.city") }</p>
                             <p><span>1.5+</span>  { t("about.fromYear") }</p>
-                            <p><span><CountUp duration={ 5 } end={ 178 } />+</span> { t("about.customer") }</p>
+                            <p><span><CountUp duration={ 5 } end={ 500 } />+</span> { t("about.customer") }</p>
                         </div>
                         <div className='aDay'>
                             <h3>{ t("about.day") }</h3>
@@ -64,6 +64,7 @@ const About = () => {
                             <img src={ require("../images/bg-why-free-now.png") } />
                             <img src={ require("../images/bg-why-uber-eats.png") } />
                             <img src={ require("../images/bg-why-uber.png") } />
+                            <img src={ require("../images/glovo.png") } />
                         </div>
                     </div></div>
             </div>

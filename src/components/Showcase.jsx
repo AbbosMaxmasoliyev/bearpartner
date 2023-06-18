@@ -32,7 +32,7 @@ const Showcase = () => {
                     <h1>{ t("content.WORKINPOLANDFORDRIVERSANDCOURIERS") }</h1>
                     <p>{ t("content.Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions") }</p>
 
-                    <button class="glow-on-hover" type="button">{ t("content.GETSTARTED") }</button>
+                    <a href="#Contact" class="glow-on-hover"  type="button">{ t("content.GETSTARTED") }</a>
                 </div>
             </div>
         </Tween>
