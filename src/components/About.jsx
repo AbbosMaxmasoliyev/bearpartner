@@ -59,12 +59,12 @@ const About = () => {
                         </div>
 
                         <div className='icons'>
+                        <img src={ require("../images/bg-why-uber.png") } />
                             <img src={ require("../images/bg-why-bolt.png") } />
-                            <img src={ require("../images/food-1.png") } />
                             <img src={ require("../images/bg-why-free-now.png") } />
-                            <img src={ require("../images/bg-why-uber-eats.png") } />
-                            <img src={ require("../images/bg-why-uber.png") } />
                             <img src={ require("../images/glovo.png") } />
+                            <img src={ require("../images/food-1.png") } />
+                            <img src={ require("../images/bg-why-uber-eats.png") } />
                         </div>
                     </div></div>
             </div>
