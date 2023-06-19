@@ -8,8 +8,13 @@ import { useTranslation } from "react-i18next"
 
 
 
+
+
 const Footer = () => {
     const { t } = useTranslation()
+    function ScrollTop(url){
+        console.log(document.querySelector("footer").scrollTop);
+    }
 
     const [height, setHeight] = useState()
 
@@ -34,7 +39,7 @@ const Footer = () => {
                 <dl>
                     <dt>Links</dt>
                     <dd>
-                        <a href="#">{ t("header.Home") }</a>
+                        <a  onClick={(e)=> ScrollTop(e.target)}>{ t("header.Home") }</a>
                     </dd>
                     <dd>
                         <a href="#About"> { t("header.AboutUs") }</a>

@@ -1,28 +1,36 @@
-import { Carousal, Carousel } from '3d-react-carousal';
+import { useTranslation } from "react-i18next"
+import { CooperationCard } from "./Card"
 import "../style/cooperation.scss"
-import { useTranslation } from 'react-i18next';
-
 
 const Cooperation = () => {
     const { t } = useTranslation()
-    let slides = [
-        <iframe width="560" height="315" autoplay={ true } src="https://www.youtube.com/embed/IwCPDzE-1Mw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JMg-pn4hyyg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
-        <img src="https://picsum.photos/800/302/?random" alt="3" />,
-        <img src="https://picsum.photos/800/303/?random" alt="4" />,
-        <img src="https://picsum.photos/800/304/?random" alt="5" />];
+
+    const data = [
+        {
+            type: "courier",
+            array: ["Thermo bag", " Every Monday for both of them", " Help with registration"],
+            choose: "All apps to choose from",
+            pay: "30zł"
+        },
+        {
+            type: "driver",
+            array: ["Taxi license", "Every Monday for both of them", " Help with registration"],
+            choose: "1 apps to choose from",
+            pay: "50zł"
+        }
+    ]
     return (
-        <div className="cooperation mt-10" style={ { height: "500px" } } id='Feedback'>
-            <h3>
-                { t("benefits.TERMSOFCOOPERATION") }
-                <br />
-                </h3>
-                <p>
-                { t("benefits.OnlyYoudecidehowoftenyoureceiveyoursalary") }
-                </p>
-            <div className="container carousel_block">
-                <Carousel slides={ slides } interval={ 5000 } autoplay={ false } arrows={ true } />
+        <div className="Cooperation">
+            <h1 className="Cooperation_title">{ t("benefits.TERMSOFCOOPERATION") }</h1>
+            <p className="Cooperation_subtitle">{ t("benefits.OnlyYoudecidehowoftenyoureceiveyoursalary") }</p>
+            <div className="Cooperation_block">
+                {
+                    data.map((item, index)=>(
+                        <CooperationCard key={index} array={item.array} choose={item.choose} pay={item.pay} type={item.type} />
+                    ))
+                }
             </div>
+
         </div>
     )
 }

@@ -27,7 +27,7 @@ const Showcase = () => {
                 },
             } }
         >
-            <div className="showcase mt-10">
+            <div className="showcase mt-10" id="showcase" data-section="showcase">
                 <div className="container info">
                     <h1>{ t("content.WORKINPOLANDFORDRIVERSANDCOURIERS") }</h1>
                     <p>{ t("content.Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions") }</p>

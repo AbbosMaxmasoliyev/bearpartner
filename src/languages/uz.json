@@ -18,8 +18,9 @@
         "OURSERVICESFORCLIENTS":"MIJOLAR UCHUN XIZMATLARIMIZ",
         "HOWDOIGETSTARTED":"QANDAY BOSHLASHIM MUMKIN?",
         "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"Haydovchi yoki kurer bo'lish uchun siz quyidagi talablarga javob berishingiz kerak:",
-        "TERMSOFCOOPERATION":"Mijozlar fikri",
-        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Mijozlarimiz biz haqimizda qanday fikrda",
+        "TERMSOFCOOPERATION":"HAMKORLIK SHARTLARI",
+        "Reviews":"Mijozlar fikri",
+        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Maoshingizni qanchalik tez-tez olishingizni faqat siz hal qilasiz",
         "Yourmessage":"Xabar yuborish",
         "FirstName":"Ismingiz",
         "LastName":"Familiyangiz",
@@ -43,6 +44,15 @@
       "day":"24 soat ichida",
       "help":"Biz barcha kerakli hujjatlarni to'ldirishda yordam beramiz haydovchilarimiz va kurerlarimiz ish boshlashlari uchun.",
       "tomorrow":"Ertasi kuni siz ishlashni boshlashingiz va har kuni doimiy ravishda sof foyda olishingiz mumkin."
+    },
+    "step":{
+      "step":"QADAM",
+      "contract":"Ariza to'ldirish",
+      "dialog":"Menejer bilan suhbat",
+      "work":"Bear Partner haqida to'liq ma'lumot",
+      "signature":"Shartnoma imzolash",
+      "profile":"Hisobingizni faollashtirish",
+      "tomorrow":"Va ertasiga siz hisobingiz faol holatda ish boshlashingiz mumkin"
     }
 
   }

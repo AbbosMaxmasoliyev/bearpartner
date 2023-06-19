@@ -1,16 +1,28 @@
-.cooperation{
-    color: #fff;
+.Cooperation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     padding: 50px 0;
-    .carousel_block{
-            padding: 40px 0;
-        }
 
-        h3{
-            font-size: 45px;
+    color: #fff;
 
-        }
-        p{
-            font-size: 36px;
-        }
-    
+    &_block{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    &_title{
+        font-size: 76px;
+    }
+
+    &_subtitle{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 56px;
+    }
 }
