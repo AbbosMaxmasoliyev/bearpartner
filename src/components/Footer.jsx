@@ -37,9 +37,9 @@ const Footer = () => {
                     <img src={ require("../images/BEAR LOGO.png") } />
                 </div>
                 <dl>
-                    <dt>Links</dt>
+                    <dt>{t("header.Links")}</dt>
                     <dd>
-                        <a  onClick={(e)=> ScrollTop(e.target)}>{ t("header.Home") }</a>
+                        <a  href="#Shocase">{ t("header.Home") }</a>
                     </dd>
                     <dd>
                         <a href="#About"> { t("header.AboutUs") }</a>
@@ -51,21 +51,16 @@ const Footer = () => {
                         <a href="#Contact">{ t("header.Contact") }</a>
                     </dd>
                 </dl>
-                <dl>
-                    <dt>Products</dt>
-                    <dd>Send</dd>
-                    <dd>Receive</dd>
-                    <dd>Buy</dd>
-                </dl>
+               
             </div>
             <div className="line"></div>
             <div className="container footer_bottom">
-                <p>Copyright © { new Date().getFullYear() }. All rights reserved.</p>
+                
                 <div className="icons">
-                    <FaFacebookF className="facebook" width={ style.width } height={ style.height } style={ { ...style, color: "#fff" } } />
-                    <FaYoutube className="youtube" style={ { ...style } } />
-                    <BsInstagram className="instagram" style={ { ...style } } />
-                    <BsTelegram className="telegram" style={ { ...style } } />
+                    <a href="https://www.facebook.com/profile.php?id=100094026783106"><FaFacebookF className="facebook" width={ style.width } height={ style.height } style={ { ...style, color: "#fff" } } /></a>
+                   <a href="https://www.youtube.com/@Bearpartner"> <FaYoutube className="youtube" style={ { ...style } } /></a>
+                    <a href="https://www.instagram.com/bear_partner/"><BsInstagram className="instagram" style={ { ...style } } /></a>
+                    <a href="https://t.me/Bearpartner"><BsTelegram className="telegram" style={ { ...style } } /></a>
                 </div>
             </div>
         </footer>

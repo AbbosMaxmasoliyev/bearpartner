@@ -1,28 +1,70 @@
 {
     "header": {
-        "Home": "Дом",
-        "Services": "Услуги",
-        "Work": "Работа",
-      "AboutUs": "О нас",
-        "Blog": "Новости"
+    "Home": "Главная",
+    "Services": "Услуги",
+    "Contact": "Контакт",
+    "AboutUs": "О нас",
+    "Blog": "Блог",
+    "Benefits": "Преимущества",
+    "feedback": "Отзывы",
+    "start": "Начать",
+    "Cooperation": "Сотрудничество",
+    "Links":"Ссылки"
     },
     "content": {
-        "WORKINPOLANDFORDRIVERSANDCOURIERS": "РАБОТА В ПОЛЬШЕ ДЛЯ ВОДИТЕЛЕЙ И КУРЬЕРОВ",
-        "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "Мы подключим вас к заработку с ежедневными или еженедельными платежами без комиссий",
-        "GETSTARTED": "СТАРТ"
+    "WORKINPOLANDFORDRIVERSANDCOURIERS": "РАБОТА В ПОЛЬШЕ ДЛЯ ВОДИТЕЛЕЙ И КУРЬЕРОВ",
+    "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "Мы свяжем вас, чтобы зарабатывать деньги в такси и доставке с ежедневными или еженедельными выплатами без комиссий",
+    "GETSTARTED": "НАЧАТЬ"
     },
     "benefits": {
-        "Benefits": "Наши преимущества",
-        "OURSERVICESFORCLIENTS": "НАШИ УСЛУГИ ДЛЯ КЛИЕНТОВ",
-        "HOWDOIGETSTARTED": "КАК НАЧАТЬ?",
-        "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "Чтобы стать водителем или курьером, вы должны соответствовать следующим требованиям:",
-        "TERMSOFCOOPERATION": "УСЛОВИЯ СОТРУДНИЧЕСТВА",
-        "OnlyYoudecidehowoftenyoureceiveyoursalary": "Только вы решаете, как часто вы получаете зарплату:",
-        "Yourmessage": "Отправить сообщение",
-        "FirstName": "Ваше имя",
-        "LastName": "Ваша фамилия",
-        "EmailAdress": "Введите адрес электронной почты",
-        "PhoneNumber": "Ваш номер телефона",
-        "Send": "Отправить"
+    "Benefits": "Преимущества",
+    "OURSERVICESFORCLIENTS": "НАШИ УСЛУГИ ДЛЯ КЛИЕНТОВ",
+    "HOWDOIGETSTARTED": "КАК НАЧАТЬ?",
+    "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "Чтобы стать водителем или курьером, вы должны соответствовать следующим требованиям:",
+    "TERMSOFCOOPERATION": "УСЛОВИЯ СОТРУДНИЧЕСТВА",
+    "Reviews": "Отзывы",
+    "OnlyYoudecidehowoftenyoureceiveyoursalary": "Только вы решаете, как часто получать зарплату",
+    "Yourmessage": "Ваше сообщение",
+    "FirstName": "Имя",
+    "LastName": "Фамилия",
+    "EmailAdress": "Адрес электронной почты",
+    "PhoneNumber": "Номер телефона",
+    "Send": "Отправить",
+    "card1subtitle": "Быстрая, ответственная и живая поддержка, без ботов и долгого ожидания",
+    "card2subtitle": "Страховка для вашего автомобиля",
+    "card3subtitle": "Возможность получить идентификационный номер и лицензию на автомобиль",
+    "card4subtitle": "Лучшие доходы на рынке для новых водителей и курьеров",
+    "card5subtitle": "Своевременные и надежные выплаты на выбор: ежедневные или еженедельные"
+    },
+    "about": {
+    "about": "О Bear Partner",
+    "subtitle": "Bear Partner предоставляет лучшие условия для работы в такси и доставке:",
+    "city": "в городах Польши",
+    "fromYear": "с года",
+    "customer": "Клиенты",
+    "day": "24/7",
+    "help": "Мы помогаем нашим водителям и курьерам в заполнении всех необходимых документов для начала работы.",
+    "tomorrow": "Начните работу завтра и получайте стабильный доход каждый день."
+    },
+    "step": {
+    "step": "ШАГ",
+    "contract": "Заполните заявку",
+    "dialog": "Общение с менеджером",
+    "work": "Полная информация о Bear Partner",
+    "signature": "Подписание контракта",
+    "profile": "Активируйте свой аккаунт",
+    "tomorrow": "И завтра вы можете начать работу с активированным аккаунтом"
+    },
+    "cooper": {
+    "courier": "Курьер",
+    "driver": "Водитель",
+    "Weekly": "Еженедельно",
+    "sumka": "Термо-сумка",
+    "monday": "На каждый понедельник",
+    "help": "Помощь при регистрации",
+    "taxi": "Лицензия на такси",
+    "choose": "Выберите 1 приложение",
+    "all": "Выберите из всех приложений",
+    "en": "Все приложения на выбор"
     }
-}
+    }

@@ -22,7 +22,7 @@ const Navbar = () => {
     const [responsive, setResponsive] = useState(false)
 
 
-   
+
 
     let navItem = useRef(null)
     useEffect(() => {
@@ -37,27 +37,30 @@ const Navbar = () => {
             }
         )
 
-        console.log(navItem);
     }, [])
 
     return (
-        <nav ref={ el => { navItem = el } } >
-            <div className="container navbar">
+        <nav >
+            <div className="container">
+                <div className="navbar">
+                    <div className="logo">
+                        <img src={ require("../images/BEAR LOGO.png") } />
+                    </div>
+                    <div className={ `links  ${responsive ? 'responsive' : ''}` }>
 
-                <div className="logo">
-                    <img src={ require("../images/BEAR LOGO.png") } />
+                        <a href="#showcase"  > { t("header.Home") }</a>
+                        <a href="#About"  > { t("header.AboutUs") }</a>
+                        <a href="#Benefits" >{ t("header.Benefits") }</a>
+                        <a href="#Step"  >{ t("header.start") }</a>
+                        <a href="#Cooperation"  >{ t("header.Cooperation") }</a>
+                        <a href="#Feedback"  >{ t("header.feedback") }</a>
+                        <a href="#Contact" >{ t("header.Contact") }</a>
+                        <Language />
+                        <button className="menu close" onClick={ () => setResponsive(!responsive) }><VscChromeClose /></button>
+                    </div>
+                    <button className="menu" onClick={ () => setResponsive(!responsive) }><GiHamburgerMenu /></button>
                 </div>
-                <div className={ `links  ${responsive ? 'responsive' : ''}` }>
-                   
-                    <a href="#Showcase"  > { t("header.Home") }</a>
-                    <a href="#About"  > { t("header.AboutUs") }</a>
-                    <a href="#Benefits" >{ t("header.Benefits") }</a>
-                    <a href="#Feedback"  >{ t("header.feedback") }</a>
-                    <a href="#Contact" >{ t("header.Contact") }</a>
-                    <Language />
-                    <button className="menu close" onClick={ () => setResponsive(!responsive) }><VscChromeClose /></button>
-                </div>
-                <button className="menu" onClick={ () => setResponsive(!responsive) }><GiHamburgerMenu /></button>
+
             </div>
         </nav>
     )

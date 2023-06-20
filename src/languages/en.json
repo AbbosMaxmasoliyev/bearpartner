@@ -1,29 +1,70 @@
 {
-    "header": {
-      "Home": "Home",
-      "Services": "Services",
-      "Work":"Work",
-      "AboutUs":"About Us",
-      "Blog":"Blog",
-      "Benefits":"Benefits"
-    },
-    "content": {
-      "WORKINPOLANDFORDRIVERSANDCOURIERS": "WORK IN POLAND FOR DRIVERS  AND COURIERS",
-      "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"We will connect you to earn money in taxi and delivery with daily or weekly payments without commissions",
-      "GETSTARTED":"GET STARTED"
-    },
-    "benefits":{
-        "Benefits":"Benefits",
-        "OURSERVICESFORCLIENTS":"OUR SERVICES FOR CLIENTS",
-        "HOWDOIGETSTARTED":"HOW DO I GET STARTED?",
-        "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"To become a driver or courier must meet the following requirements:",
-        "TERMSOFCOOPERATION":"TERMS OF COOPERATION",
-        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Only You decide how often you receive your salary",
-        "Yourmessage":"Your message",
-        "FirstName":"First Name",
-        "LastName":"Last Name",
-        "EmailAdress":"Email Adress",
-        "PhoneNumber":"Phone Number",
-        "Send":"Send"
-    }
+  "header": {
+    "Home": "Home",
+    "Services": "Services",
+    "Contact": "Contact",
+    "AboutUs": "About Us",
+    "Blog": "Blog",
+    "Benefits": "Benefits",
+    "feedback": "Feedback",
+    "start": "Start",
+    "Cooperation": "Cooperation",
+    "Links":"Links"
+  },
+  "content": {
+    "WORKINPOLANDFORDRIVERSANDCOURIERS": "WORK IN POLAND FOR DRIVERS AND COURIERS",
+    "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "We will connect you to earn money in taxi and delivery with daily or weekly payments without commissions",
+    "GETSTARTED": "GET STARTED"
+  },
+  "benefits": {
+    "Benefits": "Benefits",
+    "OURSERVICESFORCLIENTS": "OUR SERVICES FOR CLIENTS",
+    "HOWDOIGETSTARTED": "HOW DO I GET STARTED?",
+    "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "To become a driver or courier, you must meet the following requirements:",
+    "TERMSOFCOOPERATION": "TERMS OF COOPERATION",
+    "Reviews": "Reviews",
+    "OnlyYoudecidehowoftenyoureceiveyoursalary": "Only you decide how often you receive your salary",
+    "Yourmessage": "Your message",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "EmailAdress": "Email Address",
+    "PhoneNumber": "Phone Number",
+    "Send": "Send",
+    "card1subtitle": "Fast, responsible, and live support, no bots and long waiting",
+    "card2subtitle": "Insurance for your car",
+    "card3subtitle": "Opportunity to obtain ID and license for the car",
+    "card4subtitle": "Best earnings on the market for new drivers and couriers",
+    "card5subtitle": "Timely and reliable payments with the choice: daily or weekly"
+  },
+  "about": {
+    "about": "About Bear Partner",
+    "subtitle": "Bear Partner provides the best conditions for working in taxi and delivery services:",
+    "city": "in cities of Poland",
+    "fromYear": "since year",
+    "customer": "Customers",
+    "day": "24/7",
+    "help": "We assist our drivers and couriers in completing all the necessary documents to start work.",
+    "tomorrow": "Start working tomorrow and get stable income every day."
+  },
+  "step": {
+    "step": "STEP",
+    "contract": "Fill out the application",
+    "dialog": "Talk to the manager",
+    "work": "Full information about Bear Partner",
+    "signature": "Signing the contract",
+    "profile": "Activate your account",
+    "tomorrow": "And tomorrow you can start working with your active account"
+  },
+  "cooper": {
+    "courier": "Courier",
+    "driver": "Driver",
+    "Weekly": "Weekly",
+    "sumka": "Thermal bag",
+    "monday": "Every Monday for both of them",
+    "help": "Assistance in registration",
+    "taxi": "Taxi license",
+    "choose": "Choose 1 app",
+    "all": "Choose from all apps",
+    "en": "All apps to choose from"
   }
+}

@@ -25,29 +25,7 @@ const Benefits = () => {
 
   return (
 
-    <Tween
-      from={ {
-        x: '1920px',
-        scrollTrigger: {
-          trigger: '.benefits',
-          start: `10vh center`,
-          end: '5vh center',
-          scrub: 1,
-          markers: false,
-        },
-      } }
-
-      to={ {
-        x: '0',
-        scrollTrigger: {
-          trigger: '.benefits',
-          start: '10vh center',
-          end: `5vh center`,
-          scrub: 1,
-          markers: false,
-        },
-      } }
-    >
+   
       <div className="benefits mt-10" id="Benefits">
         <div className="container">
           <h2>{ t("benefits.Benefits") }</h2>
@@ -61,7 +39,6 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-    </Tween>
   )
 }
 export default Benefits

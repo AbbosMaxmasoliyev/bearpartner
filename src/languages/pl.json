@@ -1,0 +1,69 @@
+{
+    "header": {
+    "Home": "Strona główna",
+    "Services": "Usługi",
+    "Contact": "Kontakt",
+    "AboutUs": "O nas",
+    "Blog": "Blog",
+    "Benefits": "Korzyści",
+    "feedback": "Opinie",
+    "start": "Rozpocznij",
+    "Cooperation": "Współpraca"
+    },
+    "content": {
+    "WORKINPOLANDFORDRIVERSANDCOURIERS": "PRACA W POLSCE DLA KIEROWCÓW I KURIERÓW",
+    "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "Połączymy Cię, aby zarabiać pieniądze na taksówce i dostawie z codziennymi lub tygodniowymi wypłatami bez prowizji",
+    "GETSTARTED": "ROZPOCZNIJ"
+    },
+    "benefits": {
+    "Benefits": "Korzyści",
+    "OURSERVICESFORCLIENTS": "NASZE USŁUGI DLA KLIENTÓW",
+    "HOWDOIGETSTARTED": "JAK ZACZĄĆ?",
+    "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "Aby zostać kierowcą lub kurierem, musisz spełnić następujące wymagania:",
+    "TERMSOFCOOPERATION": "WARUNKI WSPÓŁPRACY",
+    "Reviews": "Opinie",
+    "OnlyYoudecidehowoftenyoureceiveyoursalary": "Tylko Ty decydujesz, jak często otrzymujesz wynagrodzenie",
+    "Yourmessage": "Twoja wiadomość",
+    "FirstName": "Imię",
+    "LastName": "Nazwisko",
+    "EmailAdress": "Adres e-mail",
+    "PhoneNumber": "Numer telefonu",
+    "Send": "Wyślij",
+    "card1subtitle": "Szybkie, odpowiedzialne i żywe wsparcie, bez botów i długiego oczekiwania",
+    "card2subtitle": "Ubezpieczenie dla Twojego samochodu",
+    "card3subtitle": "Możliwość uzyskania identyfikatora i licencji na samochód",
+    "card4subtitle": "Najlepsze zarobki na rynku dla nowych kierowców i kurierów",
+    "card5subtitle": "Płatności terminowe i niezawodne, do wyboru: codzienne lub tygodniowe"
+    },
+    "about": {
+    "about": "O Bear Partner",
+    "subtitle": "Bear Partner zapewnia najlepsze warunki pracy w branży taksówkowej i dostawczej:",
+    "city": "w miastach Polski",
+    "fromYear": "od roku",
+    "customer": "Klienci",
+    "day": "24 godziny na dobę",
+    "help": "Pomagamy naszym kierowcom i kurierom w wypełnieniu wszystkich niezbędnych dokumentów do rozpoczęcia pracy.",
+    "tomorrow": "Zacznij pracę jutro i czerp stabilne dochody każdego dnia."
+    },
+    "step": {
+    "step": "KROK",
+    "contract": "Wypełnij formularz",
+    "dialog": "Rozmowa z menedżerem",
+    "work": "Pełne informacje o Bear Partner",
+    "signature": "Podpisz umowę",
+    "profile": "Aktywuj swoje konto",
+    "tomorrow": "A jutro możesz rozpocząć pracę z aktywnym kontem"
+    },
+    "cooper": {
+    "courier": "Kurier",
+    "driver": "Kierowca",
+    "Weekly": "Tygodniowo",
+    "sumka": "Torba termiczna",
+    "monday": "Dla każdego poniedziałku",
+    "help": "Pomoc przy rejestracji",
+    "taxi": "Licencja na taksówkę",
+    "choose": "Wybierz 1 aplikację",
+    "all": "Wybierz spośród wszystkich aplikacji",
+    "en": "Wszystkie dostępne aplikacje"
+    }
+    }

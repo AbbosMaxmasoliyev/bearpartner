@@ -37,15 +37,15 @@ const Language = () => {
     return (
         <div className="language" >
             <button onClick={ () => setOpen(prev => !prev) }>{ language } <img src={ dataLanguage[language].image } /></button>
-            <div className={ `close ${open ? "open" : null}` }>
+            <div className={ `close ${open ? "show" : null}` }>
                 {
                     open ?
-                        Object.keys(dataLanguage).map(lang => {
+                        Object.keys(dataLanguage).map((lang, index) => {
                             if (language !== lang) {
                                 return <button onClick={ () => {
                                     setLanguage(lang)
                                     i18n.changeLanguage(lang)
-                                } }>
+                                } }  key={index}>
                                     { lang } <img src={ dataLanguage[lang].image } />
                                 </button>
 

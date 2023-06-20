@@ -35,7 +35,7 @@
         margin: 0;
     }
 
-  
+
 
     .started {
         height: 150px;
@@ -48,6 +48,7 @@
         display: flex;
         justify-content: space-around;
         position: static;
+
         .line {
             position: absolute;
             width: 100%;
@@ -56,7 +57,7 @@
             margin-top: 180px;
             display: flex;
             justify-content: flex-start;
-    
+
             marquee {
                 margin-top: -8px;
                 height: 15px;
@@ -65,19 +66,19 @@
                 overflow: visible;
                 display: flex;
                 align-items: center;
-    
-    
+
+
             }
-    
+
             &_animation {
                 height: 0px;
                 // position: absolute;
-    
+
                 width: 70px;
                 display: block;
                 animation: borderAnimation linear infinite 1.5s;
                 position: relative;
-    
+
                 &::before {
                     position: absolute;
                     right: -20px;
@@ -93,9 +94,9 @@
                     margin-top: -10px;
                 }
             }
-    
+
         }
-       
+
 
 
 
@@ -149,7 +150,7 @@
                 line-height: 66px;
             }
 
-            .spend_info {
+            &_info {
                 font-size: 35px;
                 font-family: "Inter";
                 text-align: left;
@@ -171,7 +172,7 @@
 
 @media only screen and (max-width:1336px) {
     .step {
-        height: max-content;
+       min-height: 900px;
         display: grid;
         grid-template-areas:
             "title title"
@@ -194,11 +195,11 @@
             height: 20px;
         }
 
-      
+
 
         .carou {
             align-items: center;
-            
+
             position: relative;
             height: 600px;
             grid-area: spend;
@@ -209,6 +210,7 @@
             margin-top: 0px;
             display: flex;
             justify-content: center;
+
             .line {
                 height: 100%;
                 width: 5px;
@@ -217,7 +219,8 @@
                 left: 15px;
                 grid-area: line;
                 position: absolute;
-                marquee{
+
+                marquee {
                     display: none;
                 }
             }
@@ -242,7 +245,7 @@
 
                 .info {
                     grid-area: step;
-                    
+
                     height: 80%;
                     box-sizing: border-box;
                 }
@@ -250,7 +253,7 @@
                 .title {
                     grid-area: title;
                     height: 100%;
-                    font-size: 16px;
+                    font-size: 26px;
                 }
 
                 &::after {
@@ -301,35 +304,47 @@
     }
 
     .step {
-        height: max-content;
+        height: calc(100% + 300px);
         display: grid;
         grid-template-areas:
             "title title"
             "line spend";
         grid-template-columns: 5% 60%;
         justify-content: center;
+        padding: 0;
+
+        gap: 80px;
+
 
         .title {
             grid-area: title;
+            font-size: 20px;
+        }
+        p{
+            line-height: 20px;
         }
     }
 
     .step {
 
-        grid-template-columns: 5% 80%;
+        grid-template-columns: 0% 95%;
 
         .carou {
+
             .spend {
-                width: 90%;
+                width: 85%;
 
 
+                &_info {
+                    font-size: 20px;
+                }
 
                 &::before {
 
                     width: 30px;
                     height: 30px;
 
-                    margin-left: -32px;
+                    margin-left: 0px;
 
                     position: absolute;
                 }
@@ -343,7 +358,7 @@
                         height: 30px;
 
 
-                        margin-left: -32px;
+                        margin-left: 0px;
                     }
 
 

@@ -6,7 +6,10 @@
       "AboutUs":"Biz haqimizda",
       "Blog":"Yangiliklar",
       "Benefits":"Imtiyozlarimiz",
-      "feedback":"Fikrlar"
+      "feedback":"Fikrlar",
+      "start":"Boshlash",
+      "Cooperation":"Shartlarimiz",
+      "Links":"Havolalar"
     },
     "content": {
       "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADAGI TAXI HAYDOVCHILAR VA KURERLAR UCHUN ISHONARLI PARTNER",
@@ -53,6 +56,18 @@
       "signature":"Shartnoma imzolash",
       "profile":"Hisobingizni faollashtirish",
       "tomorrow":"Va ertasiga siz hisobingiz faol holatda ish boshlashingiz mumkin"
+    },
+    "cooper":{
+      "courier":"kuryer",
+      "driver":"Haydovchi",
+      "Weekly":"Haftasiga",
+      "sumka":"Termo sumka",
+      "monday":"Har dushanba ikkalasi uchun",
+      "help":"Ro'yxatdan o'tishda yordam",
+      "taxi":"Taksi litsenziyasi",
+      "choose":"Tanlash uchun 1 ta ilova",
+      "all":"Barcha ilovalardan tanlash",
+      "en":"All apps to choose from"
     }
 
   }

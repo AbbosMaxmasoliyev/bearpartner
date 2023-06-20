@@ -7,20 +7,20 @@ const Cooperation = () => {
 
     const data = [
         {
-            type: "courier",
-            array: ["Thermo bag", " Every Monday for both of them", " Help with registration"],
-            choose: "All apps to choose from",
+            type: "cooper.courier",
+            array: ["cooper.sumka", "cooper.monday", "cooper.help"],
+            choose: "cooper.all",
             pay: "30zł"
         },
         {
-            type: "driver",
-            array: ["Taxi license", "Every Monday for both of them", " Help with registration"],
-            choose: "1 apps to choose from",
+            type: "cooper.driver",
+            array: ["cooper.taxi", "cooper.monday", "cooper.help"],
+            choose: "cooper.choose",
             pay: "50zł"
         }
     ]
     return (
-        <div className="Cooperation">
+        <div className="Cooperation" id="Cooperation">
             <h1 className="Cooperation_title">{ t("benefits.TERMSOFCOOPERATION") }</h1>
             <p className="Cooperation_subtitle">{ t("benefits.OnlyYoudecidehowoftenyoureceiveyoursalary") }</p>
             <div className="Cooperation_block">

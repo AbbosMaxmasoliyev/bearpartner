@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 const Step = () => {
     const { t } = useTranslation()
     return (
-        <div className="step mt-10">
+        <div className="step mt-10" id="Step">
             <div className="container title">
                 <h3>{ t("benefits.HOWDOIGETSTARTED") }</h3>
                 <p>{ t("benefits.Tobecomeadriverorcouriermustmeetthefollowingrequirements") }</p>

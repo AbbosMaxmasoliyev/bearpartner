@@ -18,6 +18,7 @@
     background: #161717cc;
 
     &_block {
+        
         display: grid;
         grid-template-areas:
             "title title"
@@ -27,7 +28,9 @@
         grid-row-gap: 20px;
 
         .inputs {
+
             grid-area: inputs;
+            form{
             display: flex;
             flex-direction: column;
             gap: 47px;
@@ -37,6 +40,7 @@
                 grid-template-columns: 45% 45%;
                 justify-content: space-between;
             }
+        }
 
         }
 

@@ -1,4 +1,5 @@
 import "../style/cards.scss"
+import { useTranslation } from "react-i18next"
 const BenefitCard = ({ image, title, info }) => {
     return (
         <div className="benefitCard">
@@ -17,23 +18,24 @@ const BenefitCard = ({ image, title, info }) => {
 }
 
 const CooperationCard = ({ array, type, choose, pay }) => {
+    const {t}=useTranslation()
     return (
         <div className="CooperationCard">
             <div className="CooperationCard_card">
-                <p className="CooperationCard_title">{ type }</p>
+                <p className="CooperationCard_title">{ t(type) }</p>
                 <ul>
                     {
                         array.map((item, index) => (
-                            <li key={ index }>{ item }</li>
+                            <li key={ index }>{ t(item) }</li>
                         ))
                     }
                 </ul>
-                <p className="CooperationCard_description">{ choose }</p>
+                <p className="CooperationCard_description">{ t(choose) }</p>
                 <div className="payment">
                     <p className="CooperationCard_pay">{ pay }</p>
-                    <p className="border">Weekly</p>
+                    <p className="border">{t("cooper.Weekly")}</p>
                 </div>
-                <button className="get">Get Started</button>
+                <button className="get">{t("content.GETSTARTED")}</button>
             </div>
 
         </div>

@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "3d-react-carousal": "^5.0.0",
     "boostrap": "^2.0.0",
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "gsap": "^3.12.1",
     "i18next": "^23.1.0",
