@@ -20,9 +20,11 @@ const Message = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_83otz32', 'template_o62w2in', form.current, '_HJCkwhHioPwzlkSF')
+        emailjs.sendForm('service_763ds8f', 'template_ucet8az', form.current, 'qAwlNbahDnOzMdxz7')
             .then((result) => {
-                console.log(result.text);
+               if(result.text =="OK"){
+                alert(t("content.alert"))
+               }
             }, (error) => {
                 console.log(error.text);
             });

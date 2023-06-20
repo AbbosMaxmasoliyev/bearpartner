@@ -14,7 +14,8 @@
     "content": {
       "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADAGI TAXI HAYDOVCHILAR VA KURERLAR UCHUN ISHONARLI PARTNER",
       "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"Biz sizni taksi va yetkazib berishda kunlik yoki haftalik to'lovlar bilan komissiyasiz pul ishlash uchun bog'laymiz",
-      "GETSTARTED":"BOSHLASH"
+      "GETSTARTED":"BOSHLASH",
+      "alert":"Xabaringiz muvaffaqqiyatli jo'natildi, yaqin muddat ichida aloqaga chiqamiz"
     },
     "benefits":{
         "Benefits":"Imtiyozlarimiz",

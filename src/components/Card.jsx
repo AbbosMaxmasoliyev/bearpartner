@@ -35,7 +35,7 @@ const CooperationCard = ({ array, type, choose, pay }) => {
                     <p className="CooperationCard_pay">{ pay }</p>
                     <p className="border">{t("cooper.Weekly")}</p>
                 </div>
-                <button className="get">{t("content.GETSTARTED")}</button>
+                <a href="#Contact" className="get">{t("content.GETSTARTED")}</a>
             </div>
 
         </div>
