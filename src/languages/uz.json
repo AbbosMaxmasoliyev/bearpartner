@@ -1,74 +1,72 @@
 {
-    "header": {
-      "Home": "Bosh Sahifa",
-      "Services": "Xizmatlar",
-      "Contact":"Aloqa",
-      "AboutUs":"Biz haqimizda",
-      "Blog":"Yangiliklar",
-      "Benefits":"Imtiyozlarimiz",
-      "feedback":"Fikrlar",
-      "start":"Boshlash",
-      "Cooperation":"Shartlarimiz",
-      "Links":"Havolalar"
-    },
-    "content": {
-      "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADAGI TAXI HAYDOVCHILAR VA KURERLAR UCHUN ISHONARLI PARTNER",
-      "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions":"Biz sizni taksi va yetkazib berishda kunlik yoki haftalik to'lovlar bilan komissiyasiz pul ishlash uchun bog'laymiz",
-      "GETSTARTED":"BOSHLASH",
-      "alert":"Xabaringiz muvaffaqqiyatli jo'natildi, yaqin muddat ichida aloqaga chiqamiz"
-    },
-    "benefits":{
-        "Benefits":"Imtiyozlarimiz",
-        "OURSERVICESFORCLIENTS":"MIJOLAR UCHUN XIZMATLARIMIZ",
-        "HOWDOIGETSTARTED":"QANDAY BOSHLASHIM MUMKIN?",
-        "Tobecomeadriverorcouriermustmeetthefollowingrequirements":"Haydovchi yoki kurer bo'lish uchun siz quyidagi talablarga javob berishingiz kerak:",
-        "TERMSOFCOOPERATION":"HAMKORLIK SHARTLARI",
-        "Reviews":"Mijozlar fikri",
-        "OnlyYoudecidehowoftenyoureceiveyoursalary":"Maoshingizni qanchalik tez-tez olishingizni faqat siz hal qilasiz",
-        "Yourmessage":"Xabar yuborish",
-        "FirstName":"Ismingiz",
-        "LastName":"Familiyangiz",
-        "EmailAdress":"Email pochtangizni kiriting",
-        "PhoneNumber":"Telefon raqamingiz",
-        "Send":"Yuborish",
-      
-        "card1subtitle":"Tez, mas'uliyatli va jonli qo'llab-quvvatlash, hech qanday bot va uzoq kutish",
-        "card2subtitle":"Avtomobilingiz uchun sug'urta olish",
-      
-        "card3subtitle":"Avtomobil uchun ID va litsenziya olish imkoniyati",
-        "card4subtitle":"Yangi haydovchilar va kurerlarni jalb qilish uchun bozordagi eng yaxshi pul mukofotlari",
-        "card5subtitle":"Tanlov bilan o'z vaqtida va barqaror to'lovlar: kunlik yoki haftalik"
-    },
-    "about":{
-      "about":"Bear Partner haqida",
-      "subtitle":"Bear partner taksi va yetkazib berish xizmatlarida ishlash uchun eng yaxshi sharoitlarni taqdim etadi:",
-      "city":"Polsha sharharlarida",
-      "fromYear":"yildan beri",
-      "customer":"Mijozlar",
-      "day":"24 soat ichida",
-      "help":"Biz barcha kerakli hujjatlarni to'ldirishda yordam beramiz haydovchilarimiz va kurerlarimiz ish boshlashlari uchun.",
-      "tomorrow":"Ertasi kuni siz ishlashni boshlashingiz va har kuni doimiy ravishda sof foyda olishingiz mumkin."
-    },
-    "step":{
-      "step":"QADAM",
-      "contract":"Ariza to'ldirish",
-      "dialog":"Menejer bilan suhbat",
-      "work":"Bear Partner haqida to'liq ma'lumot",
-      "signature":"Shartnoma imzolash",
-      "profile":"Hisobingizni faollashtirish",
-      "tomorrow":"Va ertasiga siz hisobingiz faol holatda ish boshlashingiz mumkin"
-    },
-    "cooper":{
-      "courier":"kuryer",
-      "driver":"Haydovchi",
-      "Weekly":"Haftasiga",
-      "sumka":"Termo sumka",
-      "monday":"Har dushanba ikkalasi uchun",
-      "help":"Ro'yxatdan o'tishda yordam",
-      "taxi":"Taksi litsenziyasi",
-      "choose":"Tanlash uchun 1 ta ilova",
-      "all":"Barcha ilovalardan tanlash",
-      "en":"All apps to choose from"
-    }
+  "header": {
+    "Home": "Bosh Sahifa",
+    "Services": "Xizmatlar",
+    "Contact": "Aloqa",
+    "AboutUs": "Biz haqimizda",
+    "Blog": "Yangiliklar",
+    "Benefits": "Imtiyozlarimiz",
+    "feedback": "Fikrlar",
+    "start": "Boshlash",
+    "Cooperation": "Shartlarimiz",
+    "Links": "Havolalar"
+  },
+  "content": {
+    "WORKINPOLANDFORDRIVERSANDCOURIERS": "POLSHADAGI TAXI HAYDOVCHILAR VA KURERLAR UCHUN ISHONARLI PARTNER",
+    "Wewillconnectyoutoearnmoneyintaxianddeliverywithdailyorweeklypaymentswithoutcommissions": "Biz sizni taksi va yetkazib berishda kunlik yoki haftalik to'lovlar bilan komissiyasiz pul ishlash uchun bog'laymiz",
+    "GETSTARTED": "BOSHLASH",
+    "alert": "Xabaringiz muvaffaqqiyatli jo'natildi, yaqin muddat ichida aloqaga chiqamiz"
+  },
+  "benefits": {
+    "Benefits": "Imtiyozlarimiz",
+    "OURSERVICESFORCLIENTS": "MIJOLAR UCHUN XIZMATLARIMIZ",
+    "HOWDOIGETSTARTED": "QANDAY BOSHLASHIM MUMKIN?",
+    "Tobecomeadriverorcouriermustmeetthefollowingrequirements": "Haydovchi yoki kurer bo'lish uchun siz quyidagi talablarga javob berishingiz kerak:",
+    "TERMSOFCOOPERATION": "HAMKORLIK SHARTLARI",
+    "Reviews": "Mijozlar fikri",
+    "OnlyYoudecidehowoftenyoureceiveyoursalary": "Maoshingizni qanchalik tez-tez olishingizni faqat siz hal qilasiz",
+    "Yourmessage": "Xabar yuborish",
+    "FirstName": "Ismingiz",
+    "LastName": "Familiyangiz",
+    "EmailAdress": "Email pochtangizni kiriting",
+    "PhoneNumber": "Telefon raqamingiz",
+    "Send": "Yuborish",
 
+    "card1subtitle": "Tez, mas'uliyatli va jonli qo'llab-quvvatlash, hech qanday bot va uzoq kutish",
+    "card2subtitle": "Avtomobilingiz uchun sug'urta olish",
+
+    "card3subtitle": "Avtomobil uchun ID va litsenziya olish imkoniyati",
+    "card4subtitle": "Yangi haydovchilar va kurerlarni jalb qilish uchun bozordagi eng yaxshi pul mukofotlari",
+    "card5subtitle": "Tanlov bilan o'z vaqtida va barqaror to'lovlar: kunlik yoki haftalik"
+  },
+  "about": {
+    "about": "Bear Partner haqida",
+    "subtitle": "Bear partner taksi va yetkazib berish xizmatlarida ishlash uchun eng yaxshi sharoitlarni taqdim etadi:",
+    "city": "Polsha sharharlarida",
+    "fromYear": "yildan beri",
+    "customer": "Mijozlar",
+    "day": "24 soat ichida",
+    "help": "Biz barcha kerakli hujjatlarni to'ldirishda yordam beramiz haydovchilarimiz va kurerlarimiz ish boshlashlari uchun."
+  },
+  "step": {
+    "step": "QADAM",
+    "contract": "Ariza to'ldirish",
+    "dialog": "Menejer bilan suhbat",
+    "work": "Bear Partner haqida to'liq ma'lumot",
+    "signature": "Shartnoma imzolash",
+    "profile": "Hisobingizni faollashtirish",
+    "tomorrow": "Ertasi kuni siz ishlashni boshlashingiz va har kuni doimiy ravishda sof foyda olishingiz mumkin."
+  },
+  "cooper": {
+    "courier": "kuryer",
+    "driver": "Haydovchi",
+    "Weekly": "Haftasiga",
+    "sumka": "Termo sumka",
+    "monday": "Har dushanba ikkalasi uchun",
+    "help": "Ro'yxatdan o'tishda yordam",
+    "taxi": "Taksi litsenziyasi",
+    "choose": "Tanlash uchun 1 ta ilova",
+    "all": "Barcha ilovalardan tanlash",
+    "en": "All apps to choose from"
   }
+}

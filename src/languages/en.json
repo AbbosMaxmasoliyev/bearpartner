@@ -45,7 +45,7 @@
     "customer": "Customers",
     "day": "24/7",
     "help": "We assist our drivers and couriers in completing all the necessary documents to start work.",
-    "tomorrow": "Start working tomorrow and get stable income every day."
+    "footer":"Thank you for your cooperation with us"
   },
   "step": {
     "step": "STEP",
@@ -54,7 +54,7 @@
     "work": "Full information about Bear Partner",
     "signature": "Signing the contract",
     "profile": "Activate your account",
-    "tomorrow": "And tomorrow you can start working with your active account"
+    "tomorrow": "You can start your work from tomorrow"
   },
   "cooper": {
     "courier": "Courier",

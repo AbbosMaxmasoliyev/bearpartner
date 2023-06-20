@@ -44,7 +44,8 @@
     "customer": "Klienci",
     "day": "24 godziny na dobę",
     "help": "Pomagamy naszym kierowcom i kurierom w wypełnieniu wszystkich niezbędnych dokumentów do rozpoczęcia pracy.",
-    "tomorrow": "Zacznij pracę jutro i czerp stabilne dochody każdego dnia."
+    
+    "footer":"Dziękujemy za współpracę z nami"
     },
     "step": {
     "step": "KROK",
@@ -53,7 +54,7 @@
     "work": "Pełne informacje o Bear Partner",
     "signature": "Podpisz umowę",
     "profile": "Aktywuj swoje konto",
-    "tomorrow": "A jutro możesz rozpocząć pracę z aktywnym kontem"
+    "tomorrow": "Zacznij pracę jutro i czerp stabilne dochody każdego dnia."
     },
     "cooper": {
     "courier": "Kurier",
