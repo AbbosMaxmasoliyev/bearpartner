@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/bearpartner/static/css/main.d159b661.css",
-    "main.js": "/bearpartner/static/js/main.5a57d396.js",
-    "static/media/showBack.png": "/bearpartner/static/media/showBack.378e9eba3e7c13100630.png",
-    "static/media/5.png": "/bearpartner/static/media/5.9d473fc328637514d0be.png",
-    "static/media/3.png": "/bearpartner/static/media/3.aea494d666faf6f0fb19.png",
-    "static/media/mockup.png": "/bearpartner/static/media/mockup.40f1eeeb4a28efbd3a72.png",
-    "static/media/1.png": "/bearpartner/static/media/1.d8d7ecf15adccb087c92.png",
-    "static/media/4.png": "/bearpartner/static/media/4.36d817ef81febc57ca6f.png",
-    "static/media/2.png": "/bearpartner/static/media/2.f427142aa1aba766981d.png",
+    "main.css": "/bearpartner/static/css/main.0efcddd8.css",
+    "main.js": "/bearpartner/static/js/main.c64fec90.js",
+    "static/media/showBack.png": "/bearpartner/static/media/showBack.209e9c07c9a42f42acf6.png",
     "static/media/glovo.png": "/bearpartner/static/media/glovo.7e4688782e66a46b690d.png",
+    "static/media/mockup.png": "/bearpartner/static/media/mockup.a8f187b7843cad7c35c0.png",
     "static/media/back.mp4": "/bearpartner/static/media/back.3d4c56a128cec1669ebc.mp4",
     "static/media/Montserrat-Medium.ttf": "/bearpartner/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
     "static/media/Montserrat-Bold.ttf": "/bearpartner/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
     "static/media/Montserrat-Regular.ttf": "/bearpartner/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
     "static/media/food-1.png": "/bearpartner/static/media/food-1.74ea62c49ffd665e3f50.png",
+    "static/media/5.png": "/bearpartner/static/media/5.9fe430754b3dfd716183.png",
+    "static/media/1.png": "/bearpartner/static/media/1.7b052cad1d320daeb6f8.png",
+    "static/media/3.png": "/bearpartner/static/media/3.62d6f870b881c0bd2af7.png",
+    "static/media/2.png": "/bearpartner/static/media/2.ada12f290fdddf3a6734.png",
+    "static/media/4.png": "/bearpartner/static/media/4.4b90b4e166a54b9bbf58.png",
     "static/media/United Kingdom.png": "/bearpartner/static/media/United Kingdom.f9b6849763516b97098e.png",
     "static/media/Uzbekistan.png": "/bearpartner/static/media/Uzbekistan.c761817ae3b6d87d98d7.png",
     "index.html": "/bearpartner/index.html",
-    "main.d159b661.css.map": "/bearpartner/static/css/main.d159b661.css.map",
-    "main.5a57d396.js.map": "/bearpartner/static/js/main.5a57d396.js.map"
+    "main.0efcddd8.css.map": "/bearpartner/static/css/main.0efcddd8.css.map",
+    "main.c64fec90.js.map": "/bearpartner/static/js/main.c64fec90.js.map"
   },
   "entrypoints": [
-    "static/css/main.d159b661.css",
-    "static/js/main.5a57d396.js"
+    "static/css/main.0efcddd8.css",
+    "static/js/main.c64fec90.js"
   ]
 }
